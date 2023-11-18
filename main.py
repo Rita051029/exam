@@ -162,7 +162,7 @@ for j in range(1, 26):
                  except AttributeError:
                      print("Error")
                  try:
-                    sheet[f"A{count}"] = title.text
+                     sheet[f"A{count}"] = title.text
                  except AttributeError:
                      print("Немає назви")
 
